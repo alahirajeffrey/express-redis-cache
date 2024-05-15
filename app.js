@@ -26,7 +26,7 @@ const fetchStarWarsData = async (dataToFetch) => {
   return response.data;
 };
 
-app.get("star-wars/:dataToFetch", async (req, res) => {
+app.get("/star-wars/:dataToFetch", async (req, res) => {
   try {
     const dataToFetch = req.params.dataToFetch;
 
