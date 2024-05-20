@@ -1,6 +1,6 @@
 ## How to Setup Redis as a Cache using Docker Compose in an Express Application
 
-This repo contains code to an article I am writing on how to setup redis as a cache in an express application. Link to the article would be added to the readme once i am done.
+This repo contains code to an article I am wrote on how to setup redis as a cache in an express application. Link to the article would be added to the readme once i am done.
 
 Link to the published article: https://dev.to/alahirajeffrey/how-to-implement-caching-in-express-using-redis-and-docker-compose-3fc1
 
