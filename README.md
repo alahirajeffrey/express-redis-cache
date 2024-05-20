@@ -6,10 +6,20 @@ Link to the published article: https://dev.to/alahirajeffrey/how-to-implement-ca
 
 ### Requirements
 
-- [Nodejs](https://nodejs.org/en/) is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-- [Express](https://expressjs.com/) is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
-- [Docker compose](https://docs.docker.com/compose/) is a tool for defining and running multi-container applications. It simplifies the control of your entire application stack, making it easy to manage services, networks, and volumes in a single, comprehensible YAML configuration file. Then, with a single command, you create and start all the services from your configuration file.
+  - [Nodejs](https://nodejs.org/en/) is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+  - [Express](https://expressjs.com/) is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+  - [Docker compose](https://docs.docker.com/compose/) is a tool for defining and running multi-container applications. It simplifies the control of your entire application stack, making it easy to manage services, networks, and volumes in a single, comprehensible YAML configuration file. Then, with a single command, you create and start all the services from your configuration file.
 - [Redis](https://redis.io/) is the world’s fastest in-memory database. It provides cloud and on-prem solutions for caching, vector search, and NoSQL databases that seamlessly fit into any tech stack—making it simple for digital customers to build, scale, and deploy the fast apps our world runs on.
+
+### How to setup
+
+- Ensure you have docker and docker compose installed
+- Clone the repository using `git clone https://github.com/alahirajeffrey/express-redis-cache.git`
+- Navigate to the cloned repo and install the dependencies using `npm install`
+- Run the command `docker compose up -d` to run redis in a detached mode.
+- To run in development mode using nodemon, use `npm run dev`
+- To run in production using, use `npm run start`
+- Open postman and test the application. 
 
 # Author
 
